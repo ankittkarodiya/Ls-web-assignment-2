@@ -30,6 +30,7 @@ button {
 }
 
 .dark-mode {
+  width: 100vw;
   /* height:100vh; */
   background-color: #121212;
   /* color: white; */
@@ -37,6 +38,7 @@ button {
 }
 
 .light-mode {
+  width: 100vw;
   background-color: white;
   color: black;
 }
