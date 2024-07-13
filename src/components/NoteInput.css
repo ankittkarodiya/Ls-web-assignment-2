@@ -17,7 +17,7 @@
   
   .note-input button {
     margin-top: 10px;
-    padding: 10px 20px;
+    padding: 8px 0px;
     border: none;
     border-radius: 8px;
     background-color: #fdd835;
@@ -25,6 +25,8 @@
   }
 
   #addBtn{
+    /* font-weight: bold; */
+    font-size: 1.2rem;
     width: 15%;
     color: black;
     background-color: #FFC700;
