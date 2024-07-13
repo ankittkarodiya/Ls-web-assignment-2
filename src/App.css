@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dark-mode h1{
+  color: white;
+}
+
+.dark-mode label{
+  color: white;
+}
+
+label{
+  padding: 0 6px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dark-mode {
+  /* height:100vh; */
+  background-color: #121212;
+  /* color: white; */
+  color: black;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode .cont{
+  background-color: black;
+}
+.form-check{
+  margin: 0 auto;
+  width: 50%;
+}
+#custom-switch{
+  border: 1px solid black;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  color: white;
+  background-color: black;
+  opacity: .9;
+}
